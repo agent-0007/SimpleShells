@@ -9,7 +9,7 @@ Features
 * The shell is protected by a password
 * The shell can be terminated by a special keyword even when a command execution is not available
 * The command-line interpreter is executed with a proper `argv[0]`, so it should work on BusyBox
-* The shell properly detaches from a parent process and doesn't hand the execution flow
+* The shell properly detaches from a parent process and doesn't hang the execution flow
 * Multiple shell sessions can be opened at the same time
 * The bind port can be automatically added to iptables
 
